@@ -1,0 +1,11 @@
+SELECT DeviceId,
+System.Timestamp as Time, 
+AVG (CAST(Light as float)),
+COUNT(*)
+into asaoutput
+FROM 
+jobinput TIMESTAMP BY TimeStamp1
+GROUP BY 
+DeviceId, 
+HoppingWindow(second,60,10)
+HAVING AVG (CAST(Light as float)) > 5
