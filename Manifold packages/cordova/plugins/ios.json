@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-hostedwebapp": {
+            "PACKAGE_NAME": "net.azurewebsites.surfacesales"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "net.azurewebsites.surfacesales"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "net.azurewebsites.surfacesales"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "SurfacesalesAzurewebsitesNet",
+    "description": "Content from http://surfacesales.azurewebsites.net/home",
+    "launch_path": "/home",
+    "icons": {
+        "128": "icon128.png"
+    }
+}
